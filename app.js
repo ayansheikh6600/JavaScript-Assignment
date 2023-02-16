@@ -415,11 +415,35 @@
 //     alert(num2)
 // }
 
-// var num = +prompt("Enter a number");
-// if(num == (-num)){
+// Qustion#3
+// var num = prompt("Enter a number");
+// if(num == -(num)){
 //     alert("Negative")
-// }else if(num== +num) {
+// }else if(num == +(num)) {
 //     alert("Positive")
-// }else if (num == 0){
+// }else if (num === null){
 //     alert("Zero")
+// }
+
+// Question#6
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+// greeting = "Good day";
+// console.log(greeting)
+// }else{
+// greeting = "Good evening";
+// console.log(greeting)
+// }
+
+
+// // Quetion#7s
+// var pass = "Ayan33??";
+// var userpass = prompt("Enter your password");
+// if(userpass == undefined){
+//     alert("Please Enter Password")
+// }else if( userpass === "Ayan33??"){
+//     alert("Correct")
+// }else{
+//     alert("Incorrect Password")
 // }
